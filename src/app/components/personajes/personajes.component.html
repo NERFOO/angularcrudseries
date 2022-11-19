@@ -1,0 +1,18 @@
+<div>
+    <div class="card" style="width: 18rem;" *ngFor="let pers of personajes">
+        <table class="table table-stripped">
+            <thead>
+                <tr>
+                    <th>Personaje</th>
+                    <th>Imagen</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{pers.nombre}}</td>
+                    <td><img src="{{pers.imagen}}" alt="foto personaje" style="width: 100%;"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,10 @@
+<div>
+    <div class="card" style="width: 18rem;">
+        <img src="{{serie.imagen}}" class="card-img-top" alt="foto Personaje">
+        <div class="card-body">
+            <h5 class="card-title">{{serie.nombre}}</h5>
+            <p class="card-text">{{serie.puntuacion}}</p>
+            <a [routerLink]="['/personajes', serie.idSerie]" class="btn btn-success">Personajes</a>
+        </div>
+    </div>
+</div>
